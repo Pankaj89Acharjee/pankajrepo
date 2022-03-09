@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--Below is the Bootstrap -4 JAVASCRIPT CDN Link-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+
+    <body>
+       
+        <h1 id = "header" > HOME PAGE</h1>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-12">
+                    <nav class = "navbar navbar-expand-lg navbar-dark bg-info">
+                        <a href = "#" class = "navbar-brand" text = "centre">Medical Inventory System 2.0</a>
+                            <button class = "navbar-toggler" type = "button" data-toggle = "collapse"
+                        data-target = "#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle Navigation">
+                                <span class = "navbar-toggler-icon"></span>
+                            </button>
+
+                        <div class = "collapse navbar-collapse" id = "navbarNav"> 
+                            <ul class = "navbar-nav">
+                                <li class = "nav-item">
+                                    <a href = "" class = "nav-link">Home</a>
+                                </li>
+
+                                <li class = "nav-item">
+                                    <a href = "/add" class = "nav-link">Medicines</a>
+                                </li>
+
+                                <li class = "nav-item">
+                                    <a href = "" class = "nav-link">Sitemap</a>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href = "" class = "nav-link">Project</a>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href = "" class = "nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </nav>
+
+                <!--Writing on the imgage i.e., Card Overlays--------->
+                    <div class = "card bg-dark text-white">                   
+                        <img class = "card-img" id = "img" src = "https://images.unsplash.com/photo-1555633514-abcee6ab92e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80">
+                        <div class = "card-img-overlay">
+                            <h1 class = "card-title text-center">Meditory</h1>
+                            <p class = "card-text text-center">Manage all your medical inventory</p>
+                            
+
+                            
+                            <!--Placing Button at the centre-->
+                            <p class = "card-text text-center">
+                                <a id = "buttonid" href = "/dashboard" class = "btn btn-primary">Go Dashboard</a>
+                            </p>
+
+                            <!-----------Putting Small Cards as Image Overlay------>
+                            <div class = "row mt-3 text-center" id = "small-cards">
+                                <div class = "col-md-4 col-sm-4 col-s-4">
+                                    <div class = "card">
+                                        <img class = "card-img-top" src = "https://media.istockphoto.com/photos/portrait-of-middle-aged-asian-female-doctor-standing-in-hospital-picture-id1271328839">
+                                        <div class = "card-body">
+                                            <h3 class = "card-title text-dark">Message from MD. Jackson</h3>
+                                                <p class = "card-text text-dark">"Our first concern is your health, 
+                                            and we're surely making it in your way".
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                    
+                             <!--------------------------------------------------------->
+
+                            
+                        </div>
+
+                    </div>
+
+                        <div class = "card-footer text-center">
+                            <p class = "card-text">Royal Medical Inventory System</p>                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

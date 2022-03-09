@@ -1,0 +1,73 @@
+#img{
+
+    margin-top:20%;
+    opacity: 80%;
+}
+
+.centered-heading{   /*This is for Meditory heading*/
+    position:absolute;
+    font-weight:  bold;
+    top: 5%;
+    left: 10%;
+    padding: 30%;
+    color:darkslategrey;
+    font-size: 4em;
+    font-family: sans-serif;
+    
+}
+
+.centered{ /*This is for the brief description line*/
+
+    position: absolute;
+    top:15%;
+   
+    left: 4%;
+    padding: 30%;
+    color:dimgrey;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+#continue{   /*This is for Button*/
+
+    /*top: 53%;
+    position: absolute;
+    
+    left: 46%;*/
+
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#header{
+
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:dodgerblue;
+    font-weight: bold;
+
+}
+
+#buttonid{
+
+    padding: 0.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    
+    align-content: center;
+}
+
+#small-cards{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    align-content: flex-end;
+    position:relative;
+    flex-direction: column;
+    padding-top: 15em;
+    opacity: 50%;
+    
+    
+}

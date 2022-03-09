@@ -1,0 +1,61 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        
+        
+        <div class = "container">
+            <div class = "row bg-info" >
+                <div class = "col-md-12 col-s-12 col-sm-12">
+                    <h1 class = "text text-center text-white"> Manage Medicines</h1>
+                </div>
+            </div>
+
+
+            <div class = "row bg-dark">
+                <div class = "col-md-12 col-lg-12 col-sm-12">
+                    <table class = "table table-striped text-white text-center">
+                        <thead class = "thead-dark">
+                          <tr>
+                            <th scope = "col">Medicine ID</th>
+                            <th scope = "col">Medicine Name</th>
+                            <th scope = "col">No of Medicines</th>
+                            <th scope = "col">Brand Name</th>
+                            <th scope = "col"></th>
+                            <th scope = "col"></th> 
+                          </tr>                 
+                        </thead>
+
+                        {{#rows}}
+           
+                            <tr>
+                                <td>{{mid}}</td>
+                                <td>{{name}}</td>
+                                <td>{{count}}</td>
+                                <td>{{brand}}</td>
+                            <td>
+                                <form action = "/meds/delete/{{mid}}" method = "post">
+                                    <button class = "btn btn-danger" type = "submit">Delete</button>
+                                </form>
+                            </td>
+
+                            <td>
+                                <a class = "btn btn-success" href = '/meds/edit/{{mid}}'> Edit </a>
+                            </td>
+                            </tr>      
+                        {{/rows}}
+                     
+                    </table>  
+                </div>
+            </div>
+
+
+        </div>
+       
+
+    </body>
+</html>

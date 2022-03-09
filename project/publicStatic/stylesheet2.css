@@ -1,0 +1,39 @@
+#buttonid{
+
+    font-weight: bold;
+    font-size: 2.5em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: auto;
+}
+
+.card-body{
+
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    color:darkred;
+}   
+
+#dash{
+
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    color:mediumvioletred;
+    padding: auto;
+    background-color: moccasin;
+
+}
+
+#header{
+
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    color:darkslategray;
+    padding: auto;
+  
+
+
+}

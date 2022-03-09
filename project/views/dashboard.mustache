@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet2.css">
+    </head>
+
+    <body>
+        
+
+            <div class = "container-fluid">
+                <div class = "row">
+                    <div class = "col-md-12">
+                        <h1 class = "text text-center" id = "dash">DASHBOARD</h1>
+                    </div>
+                </div>
+
+                <div class = "row">
+                    <div class = "col-md-12">
+                        <div class = "card bg-info">
+                            <div class = "card-header text-center" id = "header">Statistics of Medicines
+                            </div>
+
+                            <div class = "card-body">
+                                <table class = "table table-success text-center">
+                                    <tr>
+                                        <td>Total Stock Available</td>
+                                        <td>Total Brands</td>                                       
+                                    </tr>
+                                
+                                    <tr>
+                                       {{#res1}} <td>{{sum}}</td>{{/res1}}
+                                       {{#res2}} <td>{{count}}</td>{{/res2}}
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Creating Buttons in the DASHBOARD-------------------------->
+                
+                <div class = "row">
+                    <div class = "col-md-12">
+                        <div class = "card bg-success text-center">
+                            <div class = "card-header" id = "buttonid">Perform Actions
+                            </div>
+                            <div class = "card-body">
+                                <a class = "btn btn-primary" href = "/add">Add Medicine</a>
+                                <a class = "btn btn-secondary" href = "/meds">Edit Medicine</a>
+                                <a class = "btn btn-danger" href = "/meds">Delete Medicine</a>
+                                <a class = "btn btn-primary" href = "/">Home</a>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+
+
+         
+        
+        
+        
+       
+    </body>
+</html>
