@@ -8,15 +8,16 @@
     <body>
         <h1 class = "text text-center bg-info"> Edit Medicines/Number of Stocks/Brand Names</h1>
 
-        <form action = "/meds/edit/{{med.mid}}" method = "post">
+        <form action = "/meds/edit/{{med.mid}}" method = "post" class="editmeds">
            MedicineName <input type = "text" name = "name" value = "{{med.name}}" placeholder = ""/>
            
            Number of Medicines  <input type = "text" name = "count" value = "{{med.count}}" placeholder = ""/>
             BrandName  <input type = "text" name = "brand" value = "{{med.brand}}" placeholder = ""/>
-               
+
         <button type= "submit">Save</button>
         
         
         </form>
+        <a class = "btn btn-secondary" href = "/meds">Edit Medicine</a>
     </body>
 </html>

@@ -2,13 +2,14 @@
 <html>
 
     <head>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet2.css">
     </head>
 
     <body>
        <h1> This is the form to add medicines</h1>
-
-       <form class = "" action = "/meds/add" method = "post">
+    <div class = "container-fluid">
+       <form class = "medadds" action = "/meds/add" method = "post">
       Enter Medicine Name <input type = "text" name = "name" placeholder = "Medicine Name"/>
        <br> Enter Available Stocks <input type = "text" name = "count" placeholder = "No of stock"/>
       <br>  Brand Name <input type = "text" name = "brand" placeholder = "Brand Name"/>
@@ -16,6 +17,7 @@
       <br>  <button type = "submit">Add New</button>
 
        </form>
+    </div>
 
     </body>
 </html>

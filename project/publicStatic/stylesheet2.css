@@ -37,3 +37,25 @@
 
 
 }
+
+.medadds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 10%;
+    background: linear-gradient(270deg, rgb(0, 26, 26), #c4bdbd);
+    color: azure;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    color: darkcyan;
+}
+
+.editmeds {
+    display: flex;
+    flex-direction: row;
+}
